@@ -84,3 +84,33 @@ border-radius: 8px;
 background: rgb(0, 106, 80);
 padding: 17px 34px 17px 34px;
 }
+.containt-three{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+margin: 10px 5px;
+
+
+}
+.type-size{
+    box-sizing: border-box;
+    border: 0px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    
+    background: rgb(255, 255, 255);
+    margin: 0;
+    padding: 24px;
+    margin: 0px 10px;
+}
+.pera{
+    display: flex;
+    margin: 0px 33.8px ;
+    
+}
+.maindiv{
+    margin: 0px 50px;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+}
