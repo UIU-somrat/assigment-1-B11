@@ -46,8 +46,8 @@ nav{
    flex-direction: row;
 justify-content: center;
 align-items: center;
-/* margin: 0px 40px; */
-padding: 40px 100px;
+ margin: 0px 40px; 
+padding: 0px 0px;
 margin-bottom: 10px;
 
 }
@@ -84,13 +84,28 @@ border-radius: 8px;
 background: rgb(0, 106, 80);
 padding: 17px 34px 17px 34px;
 }
+.title-two h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 20px;
+margin: 30px;
+
+}
 .containt-three{
     box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
 
 background: rgb(255, 255, 255);
-margin: 10px 5px;
+margin: 30px 20px;
+padding: 20px;
+
+
 
 
 }
@@ -113,4 +128,180 @@ margin: 10px 5px;
     margin: 0px 50px;
     margin-top: 40px;
     background-color: rgb(255, 255, 255);
+}
+.theardwork h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 20px;
+margin: 30px;
+
+}
+.theardwork p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 30px ;
+}
+.pera-two{
+    display: flex;
+    margin: 30px;
+}
+
+.btn-two{
+    border-radius: 8px;
+
+background: rgb(84, 144, 245);
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 11px 20px 11px 20px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+margin: 10px;
+border-color:  rgb(84, 144, 245) ;
+}
+.divsame-one .containt-three h3{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 10px;
+}
+.divsame-one .containt-three p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.divsame-one .containt-three .imgone{
+    margin: 10px;
+
+}
+.divsame-one .containt-three{
+    box-sizing: border-box;
+    border-radius: 16px;
+    
+    background: rgba(84, 144, 245, 0.2);
+}
+.btn-three{
+    border-radius: 8px;
+
+    background: rgb(9, 161, 92);
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px;
+    border-color: rgb(9, 161, 92) ;
+}
+.btn-fhour{
+    border-radius: 8px;
+
+background: rgb(255, 194, 57);
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px;
+    border-color:  rgb(255, 194, 57);
+}
+.divsame-two .containt-three h3{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 10px;
+}
+.divsame-two .containt-three p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 10px;
+margin-bottom: 30px;
+}
+.divsame-two .containt-three img{
+    margin: 10px;
+}
+.divsame-two .containt-three{
+    box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(198, 228, 214);
+}
+.divsame-three .containt-three h3{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 10px;
+
+}
+.divsame-three .containt-three p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 10px;
+margin-bottom: 30px;
+}
+.divsame-three .containt-three img{
+    margin: 10px;
+}
+.divsame-three .containt-three{
+    box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(247, 235, 207);
+}
+.mr{
+    text-align: justify;
 }
