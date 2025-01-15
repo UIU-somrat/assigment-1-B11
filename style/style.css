@@ -44,7 +44,7 @@ nav{
    background-color: rgb(198, 228, 214);
    border-radius: 24px;
    flex-direction: row;
-justify-content: center;
+justify-content :space-between;
 align-items: center;
  margin: 0px 40px; 
 padding: 0px 0px;
@@ -125,7 +125,7 @@ padding: 20px;
     
 }
 .maindiv{
-    margin: 0px 50px;
+    margin: 50px 50px;
     margin-top: 40px;
     background-color: rgb(255, 255, 255);
 }
@@ -398,6 +398,10 @@ margin: 24px 0px;
     margin: 100px;
   }
   /* table */
+  .new{
+    margin: 24px 57px;
+    padding: 10px 90px 10px 0px;
+  }
 .news h1{
     color: rgb(14, 14, 14);
 font-family: Fira Sans;
@@ -421,6 +425,8 @@ text-align: left;
     border-radius: 24px;
 
 background: rgb(255, 255, 255);
+
+
 }
 .about{
    display: flex;
@@ -438,20 +444,15 @@ margin: 0px 32px;
 border-radius: 24px;
 }
 .bout-contain{
-    /* Frame 2087325507 */
 position: static;
 width: 744px;
 height: 290px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
 gap: 32;
 padding: 0px;
-
-
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 flex-grow: 1;
@@ -460,20 +461,15 @@ margin: 0px 32px;
 }
 
 .about-contain h1{
-    /* Bangladesh Launches New Satellite */
 position: static;
 width: 744px;
 height: 38px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
 gap: 12;
 padding: 0px;
-
-
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
@@ -489,11 +485,9 @@ margin: 0px 30px
    
 }
 .about-contain img {
-    /* 8f195aac6f4a2c38bbf72c1fbeddbf9b 1 */
 position: static;
 width: 134px;
 height: 40px;
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -508,20 +502,15 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
-/* Not until the creation and maintenance of decent conditions of life for all people are recognized and accepted as a common obligation of all people and all countries—not until then shall we, with a certain degree of justification, be able to speak of humankind as civilized */
 position: static;
 width: 744px;
 height: 72px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
 gap: 12;
 padding: 0px;
-
-
-/* Inside Auto Layout */
 flex: none;
 order: 3;
 align-self: stretch;
@@ -530,20 +519,15 @@ margin: 12px 30px;
 
 }
 .about-contain button{
-    /* Frame 2087325506 */
 position: static;
 width: 139px;
 height: 48px;
-/* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 gap: 48;
 padding: 13px 26px 13px 26px;
-
-
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -554,20 +538,15 @@ background: rgb(0, 106, 80);
 
 }
 .dt{
-    /* Frame 2087325508 */
 position: static;
 width: 744px;
 height: 24px;
-/* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
 align-items: flex-start;
 gap: 12;
 padding: 0px;
-
-
-/* Inside Auto Layout */
 flex: none;
 order: 2;
 align-self: stretch;
@@ -575,11 +554,9 @@ flex-grow: 0;
 margin: 12px 0px;
 }
 .news-contain{
-    /* Frame 2087325509 */
 position: static;
 width: 1280px;
 height: 402px;
-/* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
@@ -587,8 +564,6 @@ align-items: center;
 gap: 32;
 padding: 10px 90px 10px 0px;
 
-
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
@@ -598,3 +573,161 @@ border-radius: 24px;
 
 background: rgb(206, 193, 193);
 }
+/* two */
+.about-two{
+    display: flex;
+    justify-content: space-between;
+ 
+    
+ 
+ }
+ .about-img-two img{
+ position: static;
+ width: 408px;
+ height: 306px;
+ flex: none;
+ order: 0;
+ flex-grow: 0;
+ margin: 0px 10px;
+ border-radius: 24px;
+ }
+ .bout-contain-two{
+ position: static;
+ width: 744px;
+ height: 290px;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: flex-start;
+ gap: 32;
+ padding: 0px;
+ flex: none;
+ order: 1;
+ flex-grow: 1;
+ margin: 0px 32px;
+ 
+ }
+ 
+ .about-contain-two h1{
+ position: static;
+ width: 744px;
+ height: 38px;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: flex-start;
+ gap: 12;
+ padding: 0px;
+ flex: none;
+ order: 0;
+ align-self: stretch;
+ flex-grow: 0;
+ color: rgba(14, 14, 14, 0.8);
+ font-family: Fira Sans;
+ font-size: 32px;
+ font-weight: 700;
+ line-height: 38px;
+ letter-spacing: 0%;
+ text-align: left;
+ margin: 0px 30px
+    
+ }
+ .about-contain-two img {
+ position: static;
+ width: 134px;
+ height: 40px;
+ flex: none;
+ order: 1;
+ flex-grow: 0;
+ margin: 12px 30px;
+ 
+ }
+ .about-contain-two p {
+     color: rgba(14, 14, 14, 0.7);
+ font-family: Fira Sans;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+ letter-spacing: 0%;
+ text-align: left;
+ position: static;
+ width: 744px;
+ height: 72px;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: flex-start;
+ gap: 12;
+ padding: 0px;
+ flex: none;
+ order: 3;
+ align-self: stretch;
+ flex-grow: 0;
+ margin: 12px 30px;
+ 
+ }
+ .about-contain-two button{
+ position: static;
+ width: 139px;
+ height: 48px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ gap: 48;
+ padding: 13px 26px 13px 26px;
+ flex: none;
+ order: 1;
+ flex-grow: 0;
+ margin: 12px 30px;
+ border-radius: 8px;
+ 
+ background: rgb(0, 106, 80);
+ 
+ }
+ .dt-two{
+ position: static;
+ width: 744px;
+ height: 24px;
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ align-items: left;
+ gap: 12;
+ padding: 0px;
+ flex: none;
+ order: 2;
+ align-self: stretch;
+ flex-grow: 0;
+ margin: 12px 0px;
+ padding: 0;
+ }
+ .news-contain-two{
+ position: static;
+ width: 1280px;
+ height: 402px;
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ align-items: center;
+ gap: 32;
+ padding: 10px 90px 10px 0px;
+ 
+ flex: none;
+ order: 0;
+ align-self: stretch;
+ flex-grow: 0;
+ margin: 24px 57px;
+ border-radius: 24px;
+ 
+ background: rgb(206, 193, 193);
+ }
+ .last h3{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+ }
