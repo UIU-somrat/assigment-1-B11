@@ -6,8 +6,8 @@
   font-style: normal;
 }  */
 *{
-    margin:0px 33.8px;
-    margin: none;
+    /* margin:0px 33.8px; */
+    margin: 0px;
     background-color: rgba(255, 255, 255, 0.00);
     font-family: "Work Sans", serif;
 }
@@ -722,7 +722,18 @@ background: rgb(206, 193, 193);
  
  background: rgb(206, 193, 193);
  }
- .last h3{
+.last{
+width: 1570px;
+height: 226px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+background: rgb(250, 247, 247);
+margin: auto;
+}
+ .last h4{
     color: rgb(14, 14, 14);
 font-family: Fira Sans;
 font-size: 32px;
@@ -730,4 +741,98 @@ font-weight: 700;
 line-height: 38px;
 letter-spacing: 0%;
 text-align: left;
+margin-top: 50px;
+margin-bottom: 50px;
  }
+ .subcribe{
+    border-radius: 24px;
+
+background: rgb(198, 228, 214);
+margin: 90px;
+ }
+ .subcribe h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+padding: 20px 30px;
+ }
+ .subcribe p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin: auto;
+ }
+ .bag-sub{
+    padding: 40px;
+ }
+ .som input{
+ /* Frame 2087325514 */
+position: static;
+width: 600px;
+height: 51px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+border-radius: 8px 0px 0px 8px;
+
+background: rgb(255, 255, 255);
+ }
+ .som button{
+    /* Frame 2087325504 */
+position: static;
+width: 150px;
+height: 56px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 17px 34px 17px 34px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 0px;
+border-radius: 0px 8px 8px 0px;
+
+background: rgb(0, 106, 80);
+ }
+.som{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+ }
+ .shas p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 80px;
+ }
+ 
